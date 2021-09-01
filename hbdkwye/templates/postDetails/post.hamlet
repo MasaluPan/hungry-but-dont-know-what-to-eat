@@ -1,5 +1,10 @@
 <h1>#{restaurantPostName restaurantPost}
 
 <article .jumbotron>
-    #{restaurantPostTel restaurantPost}
-    #{restaurantPostLink restaurantPost}
+    <table>
+        <tr>
+            <th>Tel: 
+            <th>#{restaurantPostTel restaurantPost}
+        <tr>
+            <th>Link:
+            <th>#{restaurantPostLink restaurantPost}

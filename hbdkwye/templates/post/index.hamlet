@@ -1,0 +1,9 @@
+<h1>今日我想來點...
+
+<div .jumbotron>
+    <ul>
+        $forall Entity id name <- allPosts
+            <h4>
+                <li>
+                    <a herf=@{PostDetailsR id}>#{restaurantPostName name}
+
